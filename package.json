@@ -1,0 +1,16 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "- In [app-synchronous](app-synchronous.js), a synchronous approach is used to calculate the sum of a large array, employing a loop with a time delay.   - [app-promise-with-httprequest](app-promise-with-httprequest.js) demonstrates asynchronous programming by fetching a random dog image URL using the XMLHttpRequest API and handling the response with Promises.   - [app-asynchronous](app-asynchronous.js) showcases asynchronous computation using Promises and setTimeout to perform the sum calculation in chunks while allowing other tasks to execute.",
+  "main": "app-asynchronous.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
